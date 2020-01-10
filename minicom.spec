@@ -1,7 +1,7 @@
 Summary: A text-based modem control and terminal emulation program
 Name: minicom
 Version: 2.6.2
-Release: 4%{?dist}
+Release: 5%{?dist}
 URL: http://alioth.debian.org/projects/minicom/
 License: GPL+ and GPLv2+ and GPLv2 and LGPLv2+ Public Domain and Copyright only
 Group: Applications/Communications
@@ -51,6 +51,9 @@ mkdir -p %{buildroot}%{_sysconfdir}
 %{_mandir}/man1/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.6.2-5
+- Mass rebuild 2013-12-27
+
 * Wed Aug 07 2013 Jaromir Capik <jcapik@redhat.com> - 2.6.2-4
 - Fixing the license tag
 
